@@ -9,7 +9,7 @@ spring:
   datasource:
     url:  jdbc:postgresql://localhost:5432/ead-course-v2
     username: postgres
-    password: banco123
+    password: 1234
   jpa:
     hibernate:
       ddl-auto: update
@@ -23,7 +23,7 @@ spring:
     ansi:
       enabled: Always
   rabbitmq:
-    addresses: amqps://oqaevxaf:6KU7WK_x0k2Et0CwgwlOOdf95NAR4uPG@woodpecker.rmq.cloudamqp.com/oqaevxaf
+    addresses: amqps://kyvrckjv:wt2vwtvqngJgDiPzVrZ1rPbE92e19sii@toad.rmq.cloudamqp.com/kyvrckjv
 
 
 logging:
